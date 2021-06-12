@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <style>
+        h1{
+            font-style: italic;
+            font-family: Cambria;
+            color:rgb(19, 15, 233);
+            text-shadow: 0px 5px #cccccc;
+        }
+        form{
+            border-style: double;
+            border-radius: 20px;
+            width: 30%;
+            background-color: rgba(107, 152, 163, 0.904);
+        }
+        #submit{
+            background-color: mediumturquoise;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+        
+    </style>
+</head>
+<body>
+    <!--Forms-->
+    <center>
+        <h1>REGISTRATION PAGE</h1>
+            <form>
+                <table>
+                    <tr>
+                        <td>
+                            NAME:
+                        </td>
+                        <td>
+                            <input type="text" name="fullname" id="name" placeholder="Enter Fullname"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            EMAIL:
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email" placeholder="Enter Email"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            PHONE:
+                        </td>
+                        <td>
+                            <input type="text" name="phone" id="phone" placeholder="Enter Phone no."/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            GENDER:
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="M">Male 
+                            <input type="radio" name="gender" value="F">Female
+                            <input type="radio" name="gender" value="O">Others 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            ADDRESS:
+                        </td>
+                        <td>
+                            <input type="text" name="address" id="address" placeholder="Enter Address"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            PIN-CODE:
+                        </td>
+                        <td>
+                            <input type="text" name="pincode" id="pincode" placeholder="Enter Pincode"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            PASSWORD:
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password" placeholder="Enter Password"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            CONFIRM PASSWORD:
+                        </td>
+                        <td>
+                            <input type="password" name="password" id="password" placeholder="Confirm Password"/>
+                        </td>
+                    </tr><br>
+                    <tr>
+                        <td>
+                            <p><input type="checkbox" name="terms"> I agree the <u>Terms and Conditions</u></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit" name="submit" id="submit"><a href="login.html" target="_blank">Submit</a></button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+    </center>
+</body>
+</html>
